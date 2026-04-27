@@ -1,0 +1,28 @@
+# Ghost Job Detection — Python Dependencies
+# COMM 486I, UBC Sauder, Group 6
+# Carter Jaquette, Nilabh Agrawal, Zixi Lian
+#
+# Install: pip install -r requirements.txt
+#
+# Note: google-colab (used in Ghost_Job_Pipeline_v2.ipynb for Drive mounting)
+# is pre-installed in Colab and not available via pip. If running locally,
+# comment out or remove the `from google.colab import drive` cell in the notebook
+# and adjust the data path accordingly.
+
+# ── Core data & numerics ──────────────────────────────────────────────────────
+numpy==2.4.4
+pandas==3.0.2
+polars==1.40.1
+scipy==1.17.1
+
+# ── Machine learning ──────────────────────────────────────────────────────────
+scikit-learn==1.8.0
+xgboost==3.2.0
+shap==0.51.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# ── Market data ───────────────────────────────────────────────────────────────
+yfinance==1.3.0
