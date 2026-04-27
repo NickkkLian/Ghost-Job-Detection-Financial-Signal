@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data files — proprietary, do not commit
+data/*.csv
+data/*.parquet
+data/*.pkl
+*.csv
