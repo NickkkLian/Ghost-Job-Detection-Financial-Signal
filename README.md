@@ -1,6 +1,6 @@
 # Ghost Job Detection: A Labor Market Mispricing Signal
 
-**Carter Jaquette, Nilabh Agrawal, and Zixi Lian**  
+**Nilabh Agrawal, Carter Jaquette, and Zixi Lian**  
 Sauder School of Business, University of British Columbia  
 COMM 486I — Applied AI in Finance
 
@@ -283,7 +283,7 @@ The pipeline expects the following parquet files in your data directory:
 If you reference this work, please cite:
 
 ```
-Jaquette, C., Agrawal, N., & Lian, Z. (2025). Ghost job detection: A labor market
+Agrawal, N., Jaquette, C., & Lian, Z. (2025). Ghost job detection: A labor market
 mispricing signal. Unpublished manuscript, Sauder School of Business,
 University of British Columbia.
 ```
