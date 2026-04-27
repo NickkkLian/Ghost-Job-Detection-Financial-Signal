@@ -33,6 +33,9 @@ returns +216.9% (Sharpe 0.84) vs. SPY +180.1% (Sharpe 0.82).
 ```bash
 pip install -r requirements.txt
 ```
+## Scripts
+- `scripts/ghost_backtest_v2.py` — walk-forward backtest engine
+- `scripts/ghost_concentration_compare_3.py` — concentration sensitivity analysis
 
 ## Data
 Proprietary — see `data/README.md` for access instructions.
